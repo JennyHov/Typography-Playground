@@ -1,21 +1,52 @@
 /* FontPairing1.css */
+html, body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
 
-/* Wrapper container */
-.font-container {
-    font-family: 'Playfair Display', serif;
+@font-face {
+  font-family: 'Botch';
+  src: url('../assets/fonts/Botch.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JosefinSlab';
+  src: url('../assets/fonts/JosefinSlab.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
     padding: 2rem;
-    text-align: center;
+    background-color: #f0EEE9;
   }
   
-  /* Heading styles */
-  .font-container h1 {
-    font-size: 3rem;
-    margin: 0 0 1rem;
+  .title {
+    font-family: 'Botch', serif;
+    font-weight: bold;
+    font-size: 7rem;
+    text-align: start;
+    box-sizing: border-box;
+    width: 60%;
   }
   
-  /* Paragraph styles */
-  .font-container p {
+  .paragraph {
+    font-family:'JosefinSlab', serif;
+    font-style: initial;
     font-size: 1.25rem;
     line-height: 1.75;
+    text-align: end;
+    color: #17184B;
+  }
+  .highlight {
+    color: #D8E63C;
+    font-weight: bold;
+  }
+
+  .title-long {
+    color: #17184B;
   }
   
