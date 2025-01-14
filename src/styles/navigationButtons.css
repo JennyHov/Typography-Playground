@@ -1,0 +1,23 @@
+.navigation-buttons {
+    position: absolute;
+    bottom: 5%;
+    left: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 40px);
+  }
+  
+  .nav-button {
+    font-size: 2rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #810000;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    color: #ddd;
+  }
+  

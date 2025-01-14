@@ -1,0 +1,21 @@
+/* FontPairing1.css */
+
+/* Wrapper container */
+.font-container {
+    font-family: 'Playfair Display', serif;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Heading styles */
+  .font-container h1 {
+    font-size: 3rem;
+    margin: 0 0 1rem;
+  }
+  
+  /* Paragraph styles */
+  .font-container p {
+    font-size: 1.25rem;
+    line-height: 1.75;
+  }
+  
